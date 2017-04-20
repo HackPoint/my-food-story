@@ -8,7 +8,7 @@ import {AppComponent} from './app.component';
 
 // angular material
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MaterialCustomViewModuleModule} from './material-custom-view-module/material-custom-view-module.module';
+import {MaterialCustomViewModule} from './material-custom-view-module/material-custom-view-module.module';
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import {MaterialCustomViewModuleModule} from './material-custom-view-module/mate
         FormsModule,
         HttpModule,
         BrowserAnimationsModule,
-        MaterialCustomViewModuleModule
+        MaterialCustomViewModule
     ],
     providers: [],
     bootstrap: [AppComponent]
