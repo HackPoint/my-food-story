@@ -1,3 +1,11 @@
-<md-toolbar>
-    Hello World!
-</md-toolbar>
+<md-sidenav-container>
+    <md-sidenav #sidenav>
+        Jolly good!
+    </md-sidenav>
+
+    <div class="sidenav-content">
+        <button md-button (click)="sidenav.open()">
+            Open sidenav
+        </button>
+    </div>
+</md-sidenav-container>
