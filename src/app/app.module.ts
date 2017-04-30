@@ -10,6 +10,8 @@ import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialCustomViewModule} from './material-custom-view-module/material-custom-view-module.module';
 
+// import mock services module
+import {MockService} from './mockservice.service';
 
 @NgModule({
     declarations: [
@@ -22,7 +24,7 @@ import {MaterialCustomViewModule} from './material-custom-view-module/material-c
         BrowserAnimationsModule,
         MaterialCustomViewModule
     ],
-    providers: [],
+    providers: [MockService],
     bootstrap: [AppComponent]
 })
 export class AppModule {
